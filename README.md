@@ -41,8 +41,6 @@ let rst = runner(tasks);
 
 ## Parameters
 
-`runGulpTask(Array:tasks, Number:maxConcurrent, Number:interval)`
-
 | Name       | Description  | Type |
 | :-------- | :-- | :--:| :--: |
 | tasks | co tasks need to run | Array |
