@@ -1,0 +1,38 @@
+{
+  "name": "co-parallel-limit",
+  "version": "0.0.1",
+  "description": "Parallel run co tasks with concurrent limit",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/_mocha --require should --reporter spec",
+    "test-cov": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --require should",
+    "test-travis": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --require should"
+  },
+  "author": "LingyuCoder",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "~0.4.0",
+    "mocha": "~2.3.3",
+    "should": "~7.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LingyuCoder/co-parallel-limit"
+  },
+  "keywords": [
+    "co",
+    "parallel",
+    "concurrent"
+  ],
+  "bugs": {
+    "url": "https://github.com/LingyuCoder/co-parallel-limit/issues"
+  },
+  "dependencies": {
+    "co": "~4.6.0",
+    "co-wait": "0.0.0",
+    "lodash.curryright": "~3.0.2"
+  }
+}
