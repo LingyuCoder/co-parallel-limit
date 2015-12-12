@@ -1,6 +1,6 @@
 {
   "name": "co-parallel-limit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parallel run co tasks with concurrent limit",
   "main": "index.js",
   "engines": {
